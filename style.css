@@ -1,0 +1,41 @@
+#temporizador{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid grey;
+    width: 50%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.botones{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+button{
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    color: blue;
+    margin: 10px;
+    border: 5px solid gray;
+    cursor: pointer;
+}
+
+#almacenar{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
